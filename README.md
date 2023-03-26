@@ -2,6 +2,17 @@
 
 This is my submission for the Module 9 challenge. My submission includes 3 components: table schema script, queries script, and an image of the ERD.
 
+# Data Modeling
+These tables included in the image of the ERD are:
+- Titles
+- Employees
+- Departments
+- Department Manager
+- Department Employees
+- Salaries
+
+I've identified primary keys and composite keys (by marking multiple columns as primary keys).
+
 # Data Engineering
 In my table schema script, I've created the following tables:
 - Titles
@@ -11,8 +22,7 @@ In my table schema script, I've created the following tables:
 - Department Employees
 - Salaries
 
-# Data Modeling
-These same tables are also reflected in the image of the ERD.
+I used NOT NULL values for columns that were going to be used in the analysis with the exception of primary and foreign keys.
 
 # Data Analysis
 In my query script, I've included the following queries:
